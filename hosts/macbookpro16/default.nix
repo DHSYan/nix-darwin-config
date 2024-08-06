@@ -14,6 +14,40 @@
             fzf
             wget
             git
+            coreutils
+            kitty
+            libgcc
+            ripgrep
+            tldr
+            unzip
+            skhd
+            yabai
+            racket
+            neofetch
+            discord
+            lua
+            luajit
+            gnumake
+            cmake
+            unzip
+            gnutar
+            curl
+            flameshot
+            tree-sitter
+            zathura
+            vscode
+            bat
+            delta
+            eza
+            thefuck
+            teams
+            R
+            protonmail-desktop
+            mdcat
+            telegram-desktop
+            pdftk
+            pdfarranger
+            lazygit
         ];
 
 
