@@ -64,7 +64,7 @@
         darwinPackages = self.darwinConfigurations."Ding-Hans-MacBook-Pro".pkgs;
 
         homeConfigurations.dhsyan = home-manager.lib.homeManagerConfiguration {
-            pkgs = darwinPackages;
+            pkgs = self.darwinConfigurations."Ding-Hans-MacBook-Pro".pkgs;
             modules = [ ~/nix-config/home ];
         };
     };
