@@ -46,7 +46,6 @@
             mdcat
             telegram-desktop
             pdftk
-            pdfarranger
             lazygit
         ];
 
