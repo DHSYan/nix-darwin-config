@@ -14,15 +14,15 @@
             fzf
             wget
             git
-            coreutils
+            # coreutils
             kitty
-            libgcc
-            ripgrep
-            tldr
-            unzip
-            skhd
-            yabai
-            racket
+            # libgcc
+            # ripgrep
+            # tldr
+            # unzip
+            # skhd
+            # yabai
+            # racket
             # neofetch
             # discord
             # lua
