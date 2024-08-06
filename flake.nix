@@ -26,7 +26,7 @@
     };
 
     outputs = inputs@{ self, nix-darwin, nixpkgs, home-manager, nix-homebrew, homebrew-core, homebrew-cask, ... }: {
-k       # Build darwin flake using:
+        # Build darwin flake using:
         # $ darwin-rebuild build --flake .#
         darwinConfigurations."Ding-Hans-MacBook-Pro" = nix-darwin.lib.darwinSystem {
             specialArgs =  { inherit inputs; };
