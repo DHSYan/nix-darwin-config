@@ -16,6 +16,7 @@
             git
             # coreutils
             kitty
+            home-manager
             # libgcc
             # ripgrep
             # tldr
