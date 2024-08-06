@@ -11,7 +11,7 @@
             inputs.nixpkgs.follows = "nixpkgs";
         };
 
-        nix-homebrew.url = "github:zhaofengli-wip/nix-homebrew";
+
 
         # Optional: Declarative tap management
         homebrew-core = {
@@ -64,6 +64,7 @@
         darwinPackages = self.darwinConfigurations."Ding-Hans-MacBook-Pro".pkgs;
 
         homeConfigurations.dhsyan = home-manager.lib.homeManagerConfiguration {
+            pkgs = darwinPackages;
             modules = [ ~/nix-config/home ];
         };
     };
