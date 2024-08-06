@@ -12,6 +12,7 @@
         };
 
 
+        nix-homebrew.url = "github:zhaofengli-wip/nix-homebrew";
 
         # Optional: Declarative tap management
         homebrew-core = {
