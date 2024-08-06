@@ -1,5 +1,8 @@
 { pkgs, inputs, ... }: 
 {
+    imports = [
+        # ../../modules/homebrew.nix
+    ];
     # List packages installed in system profile. To search by name, run:
     # $ nix-env -qaP | grep wget
     nixpkgs.config.allowUnfree = true;
@@ -11,21 +14,8 @@
             fzf
             wget
             git
-            libfido2
         ];
 
-    homebrew = {
-        enable = true;
-        brews = [
-
-        ];
-        casks = [
-            "google-chrome"
-            "raycast"
-            "kitty"
-            "obsidian"
-        ];
-    };
 
     # Auto upgrade nix package and the daemon service.
     services.nix-daemon.enable = true;
