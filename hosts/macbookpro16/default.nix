@@ -1,7 +1,7 @@
 { pkgs, inputs, ... }: 
 {
     imports = [
-        ../../modules/homebrew.nix
+        # ../../modules/homebrew.nix
     ];
     # List packages installed in system profile. To search by name, run:
     # $ nix-env -qaP | grep wget
@@ -23,30 +23,30 @@
             skhd
             yabai
             racket
-            neofetch
-            discord
-            lua
-            luajit
-            gnumake
-            cmake
-            unzip
-            gnutar
-            curl
-            flameshot
-            tree-sitter
-            zathura
-            vscode
-            bat
-            delta
-            eza
-            thefuck
-            teams
-            R
-            protonmail-desktop
-            mdcat
-            telegram-desktop
-            pdftk
-            lazygit
+            # neofetch
+            # discord
+            # lua
+            # luajit
+            # gnumake
+            # cmake
+            # unzip
+            # gnutar
+            # curl
+            # flameshot
+            # tree-sitter
+            # zathura
+            # vscode
+            # bat
+            # delta
+            # eza
+            # thefuck
+            # teams
+            # R
+            # protonmail-desktop
+            # mdcat
+            # telegram-desktop
+            # pdftk
+            # lazygit
         ];
 
 
