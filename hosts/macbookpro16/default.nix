@@ -1,7 +1,7 @@
 { pkgs, inputs, ... }: 
 {
     imports = [
-        # ../../modules/homebrew.nix
+        ../../modules/homebrew.nix
         ./environment-variables.nix
     ];
     # List packages installed in system profile. To search by name, run:

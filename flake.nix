@@ -23,7 +23,11 @@
             url = "github:homebrew/homebrew-cask";
             flake = false;
         };
-
+        # This follwing thing apparently solves the permission problem on a fresh install
+        homebrew-bundle = {
+            url = "github:homebrew/homebrew-bundle";
+            flake = false;
+        };
     };
 
     outputs = inputs@{ self, nix-darwin, nixpkgs, home-manager, nix-homebrew, homebrew-core, homebrew-cask, ... }: {
@@ -49,6 +53,7 @@
                         taps = {
                             "homebrew/homebrew-core" = homebrew-core;
                             "homebrew/homebrew-cask" = homebrew-cask;
+                            "homebrew/homebrew-bundle" = inputs.homebrew-bundle; 
                         };
 
                         # Optional: Enable fully-declarative tap management
