@@ -3,6 +3,7 @@
     imports = [
         ../../modules/homebrew.nix
         ./environment-variables.nix
+        ./system-settings.nix
     ];
     # List packages installed in system profile. To search by name, run:
     # $ nix-env -qaP | grep wget
