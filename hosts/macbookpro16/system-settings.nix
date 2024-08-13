@@ -1,8 +1,8 @@
 { ... }: 
 {
     system.defaults.NSGlobalDomain = {
-        InitialKeyRepeat = -1;
-        KeyRepeat = 10;
+        InitialKeyRepeat = 0;
+        KeyRepeat = 50;
     };
 
     system.keyboard = {
