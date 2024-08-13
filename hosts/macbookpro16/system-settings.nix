@@ -1,9 +1,9 @@
 { ... }: 
 {
     system.defaults.NSGlobalDomain = {
-        AppleKeyboardUIMode = 3;
-        InitialKeyRepeat = -500000;
-        KeyRepeat = 500000;
+        # AppleKeyboardUIMode = 3;
+        InitialKeyRepeat = 5;
+        KeyRepeat = 1;
     };
 
     system.keyboard = {
