@@ -28,6 +28,10 @@
             url = "github:homebrew/homebrew-bundle";
             flake = false;
         };
+        nikitabobko-homebrew-tap = { 
+            url = "github:nikitabobko/homebrew-tap";
+            flake = false;
+        };
     };
 
     outputs = inputs@{ self, nix-darwin, nixpkgs, home-manager, nix-homebrew, homebrew-core, homebrew-cask, ... }: {
@@ -54,6 +58,7 @@
                             "homebrew/homebrew-core" = homebrew-core;
                             "homebrew/homebrew-cask" = homebrew-cask;
                             "homebrew/homebrew-bundle" = inputs.homebrew-bundle; 
+                            "nikitabobko/homebrew-tap" = inputs.nikitabobko-homebrew-tap;
                         };
 
                         # Optional: Enable fully-declarative tap management

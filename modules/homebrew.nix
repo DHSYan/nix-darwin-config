@@ -10,6 +10,7 @@
             "raycast"
             "kitty"
             "obsidian"
+            "aerospace"
         ];
     };
 }
