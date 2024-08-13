@@ -2,7 +2,7 @@
 {
     system.defaults.NSGlobalDomain = {
         AppleKeyboardUIMode = 3;
-        InitialKeyRepeat = 0.001;
+        InitialKeyRepeat = -500000;
         KeyRepeat = 500000;
     };
 
