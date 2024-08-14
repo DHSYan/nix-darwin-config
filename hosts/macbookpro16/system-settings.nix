@@ -8,6 +8,7 @@
             ApplePressAndHoldEnabled = false;
         };
         dock.autohide = true;
+        WindowManager.EnableStandardClickToShowDesktop = false;
     };
 
 
