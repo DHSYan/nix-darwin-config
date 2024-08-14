@@ -11,6 +11,7 @@
             "kitty"
             "obsidian"
             "aerospace"
+            "bitwarden"
         ];
     };
 }
