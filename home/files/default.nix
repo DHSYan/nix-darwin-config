@@ -34,5 +34,8 @@
             target = "./.trash/.init.trash";
             text = "this is iiniting trash"; 
         };
+        
+        # Mac Specfics
+        ".config/aerospace/aerospace.toml".source = ~/.dotfiles/aerospace/aerospace.toml;
     };
 }
