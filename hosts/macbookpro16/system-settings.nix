@@ -3,8 +3,8 @@
     system.defaults = {
         NSGlobalDomain = {
             # AppleKeyboardUIMode = 3;
-            InitialKeyRepeat = 5;
-            KeyRepeat = 1;
+            InitialKeyRepeat = 10;
+            KeyRepeat = 2;
             ApplePressAndHoldEnabled = false;
         };
         dock.autohide = true;
