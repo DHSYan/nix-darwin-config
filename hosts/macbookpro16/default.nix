@@ -16,40 +16,40 @@
             fzf
             wget
             git
-            # coreutils
+            coreutils
             kitty
             home-manager
-            # libgcc
-            # ripgrep
-            # tldr
-            # unzip
-            # skhd
-            # yabai
-            # racket
-            # neofetch
-            # discord
+            # libgcc # not in the nix for aarch64-darwin
+            ripgrep
+            tldr
+            unzip
+            skhd
+            yabai
+            racket
+            neofetch
+            discord
             # lua
             # luajit
-            # gnumake
-            # cmake
-            # unzip
-            # gnutar
-            # curl
+            gnumake
+            cmake
+            unzip
+            gnutar
+            curl
             # flameshot
-            # tree-sitter
-            # zathura
-            # vscode
-            # bat
-            # delta
-            # eza
-            # thefuck
-            # teams
-            # R
-            # protonmail-desktop
-            # mdcat
-            # telegram-desktop
-            # pdftk
-            # lazygit
+            tree-sitter
+            zathura
+            vscode
+            bat
+            delta
+            eza
+            thefuck
+            teams
+            R
+            protonmail-desktop
+            mdcat
+            telegram-desktop
+            pdftk
+            lazygit
         ];
 
 
