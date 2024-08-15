@@ -4,6 +4,8 @@
         enable = true;
         brews = [
             "openssh"
+            "libyubikey"
+            "yubikey-agent"
         ];
         casks = [
             "google-chrome"
@@ -12,6 +14,7 @@
             "obsidian"
             "aerospace"
             "bitwarden"
+            "yubico-yubikey-manager"
         ];
     };
 }
