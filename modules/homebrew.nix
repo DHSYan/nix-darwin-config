@@ -6,6 +6,10 @@
             "openssh"
             "libyubikey"
             "yubikey-agent"
+            "libfido2"
+            "cmake"
+            "mandoc"
+            "pkg-config"
         ];
         casks = [
             "google-chrome"

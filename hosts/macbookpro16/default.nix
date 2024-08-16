@@ -50,6 +50,7 @@
             telegram-desktop
             pdftk
             lazygit
+            libfido2
         ];
 
 
