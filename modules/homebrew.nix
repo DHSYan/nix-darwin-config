@@ -19,6 +19,7 @@
             "aerospace"
             "bitwarden"
             "yubico-yubikey-manager"
+            "zed"
         ];
     };
 }
