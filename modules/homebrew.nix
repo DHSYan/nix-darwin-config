@@ -23,6 +23,7 @@
             "font-hurmit-nerd-font"
             "font-iosevka-nerd-font"
             "font-zed-mono-nerd-font"
+            "aldente"
         ];
     };
 }
