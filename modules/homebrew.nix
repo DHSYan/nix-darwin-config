@@ -14,7 +14,7 @@
         casks = [
             "google-chrome"
             "raycast"
-            "kitty"
+            # "kitty"
             "obsidian"
             "aerospace"
             "bitwarden"
