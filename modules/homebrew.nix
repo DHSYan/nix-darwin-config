@@ -20,6 +20,9 @@
             "bitwarden"
             "yubico-yubikey-manager"
             "zed"
+            "font-hurmit-nerd-font"
+            "font-iosevka-nerd-font"
+            "font-zed-mono-nerd-font"
         ];
     };
 }
