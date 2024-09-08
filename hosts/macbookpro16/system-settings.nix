@@ -9,9 +9,11 @@
         };
         dock.autohide = true;
         WindowManager.EnableStandardClickToShowDesktop = false;
+        # HIHideMenuBar = true;
     };
+    system.defaults.NSGlobalDomain._HIHideMenuBar = false;
 
-
+    environment.loginShellInit = "wallpaper set ~/.dotfiles/wallpaper/cs/cs.png";
 
 
     system.keyboard = {

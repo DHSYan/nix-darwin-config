@@ -10,6 +10,10 @@
             "cmake"
             "mandoc"
             "pkg-config"
+            "bitwarden-cli"
+            "feh"
+            "wallpaper"
+            "ffmpeg"
         ];
         casks = [
             "google-chrome"
@@ -24,6 +28,10 @@
             "font-iosevka-nerd-font"
             "font-zed-mono-nerd-font"
             "aldente"
+            "rstudio"
+            "R"
+            "onedrive"
+            "zoom"
         ];
     };
 }
