@@ -32,6 +32,7 @@
             "R"
             "onedrive"
             "zoom"
+            "tg-pro"
         ];
     };
 }
