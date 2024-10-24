@@ -33,6 +33,7 @@
             "onedrive"
             "zoom"
             "tg-pro"
+            "brave-browser"
         ];
     };
 }

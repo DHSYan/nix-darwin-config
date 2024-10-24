@@ -51,6 +51,7 @@
             pdftk
             lazygit
             libfido2
+            nodejs_22
         ];
 
 
