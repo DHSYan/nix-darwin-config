@@ -34,6 +34,7 @@
             "zoom"
             "tg-pro"
             "brave-browser"
+            "ticktick"
         ];
     };
 }
