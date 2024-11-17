@@ -35,6 +35,7 @@
             "tg-pro"
             "brave-browser"
             "ticktick"
+            "nordvpn"
         ];
     };
 }
