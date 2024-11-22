@@ -51,7 +51,10 @@
             pdftk
             lazygit
             libfido2
+            #whatsapp-for-mac
             nodejs_22
+            alacritty
+            karabiner-elements
         ];
 
 
