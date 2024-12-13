@@ -37,5 +37,8 @@
         
         # Mac Specfics
         ".config/aerospace/aerospace.toml".source = ~/.dotfiles/aerospace/aerospace.toml;
+
+        ".config/yabai/yabairc".source = ~/.dotfiles/maci3/yabairc;
+        ".config/skhd/skhdrc".source = ~/.dotfiles/maci3/skhdrc;
     };
 }

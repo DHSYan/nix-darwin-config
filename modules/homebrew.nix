@@ -14,6 +14,8 @@
             "feh"
             "wallpaper"
             "ffmpeg"
+            "yabai"
+            "skhd"
         ];
         casks = [
             "google-chrome"

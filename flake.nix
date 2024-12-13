@@ -32,6 +32,10 @@
             url = "github:nikitabobko/homebrew-tap";
             flake = false;
         };
+        yabai-homebrew-tap = {
+            url = "github:koekeishiya/homebrew-formulae";
+            flake = false;
+        };
     };
 
     outputs = inputs@{ self, nix-darwin, nixpkgs, home-manager, nix-homebrew, homebrew-core, homebrew-cask, ... }: {
@@ -59,6 +63,7 @@
                             "homebrew/homebrew-cask" = homebrew-cask;
                             "homebrew/homebrew-bundle" = inputs.homebrew-bundle; 
                             "nikitabobko/homebrew-tap" = inputs.nikitabobko-homebrew-tap;
+                            "koekeishiya/homebrew-formulae" = inputs.yabai-homebrew-tap;
                         };
 
                         # Optional: Enable fully-declarative tap management
