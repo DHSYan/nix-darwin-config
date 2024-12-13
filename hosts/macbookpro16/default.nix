@@ -55,6 +55,7 @@
             nodejs_22
             alacritty
             karabiner-elements
+            tmux
         ];
 
 
